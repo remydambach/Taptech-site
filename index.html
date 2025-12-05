@@ -2,34 +2,37 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>TapTech – Plug & Serve</title>
+  <title>TapTech – Plug &amp; Serve</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="TapTech conçoit des solutions techniques pour le service boisson : AirTap, GripTap, BibTap. Plug & Serve.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header class="tt-header">
     <div class="tt-container tt-header-inner">
-      <div class="tt-logo-block">
+      <a href="#top" class="tt-logo-block">
         <div class="tt-logo-mark">
           <span class="tt-logo-tap">TAP</span><span class="tt-logo-tech">TECH</span>
         </div>
         <div class="tt-logo-tagline">PLUG &amp; SERVE</div>
-      </div>
+      </a>
       <nav class="tt-nav">
         <a href="#produits">Produits</a>
-        <a href="#univers">Univers TapTech</a>
-        <a href="#technique">Données techniques</a>
+        <a href="#univers">Univers</a>
+        <a href="#technique">Technique</a>
         <a href="#pro">Espace pro</a>
         <a href="#contact" class="tt-btn tt-btn-small tt-btn-outline">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="top">
+    <!-- HERO -->
     <section class="tt-hero">
       <div class="tt-container tt-hero-grid">
         <div class="tt-hero-text">
+          <p class="tt-eyebrow">Nouvelle marque • Service boisson</p>
           <h1>TapTech – la technologie derrière chaque Tap.</h1>
           <p class="tt-hero-sub">
             AirTap, GripTap, BibTap : une gamme de solutions compactes, robustes et mobiles
@@ -45,21 +48,23 @@
             <li>Matériel pensé par des opérateurs terrain.</li>
           </ul>
         </div>
+
         <div class="tt-hero-visual">
           <div class="tt-hero-card">
-            <p class="tt-pill">Nouvelle marque</p>
+            <p class="tt-pill">Gamme TapTech</p>
             <h2>AirTap • GripTap • BibTap</h2>
-            <p>Une même logique : un service pression simple, stable, fiable.</p>
+            <p>Une même logique : un service pression simple, stable et fiable.</p>
             <ul class="tt-mini-list">
-              <li>Débits maîtrisés</li>
-              <li>Montage intuitif</li>
-              <li>Transport et nettoyage facilités</li>
+              <li>Débits maîtrisés et réglables.</li>
+              <li>Montage intuitif, sans usine à gaz.</li>
+              <li>Transport et nettoyage facilités.</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- PRODUITS -->
     <section id="produits" class="tt-section">
       <div class="tt-container">
         <div class="tt-section-head">
@@ -68,30 +73,32 @@
         </div>
 
         <div class="tt-grid-3">
+          <!-- AirTap -->
           <article class="tt-card">
             <div class="tt-card-header">
               <h3>AirTap</h3>
-              <p class="tt-tag tt-tag-green">Service pression mobile</p>
+              <span class="tt-tag tt-tag-green">Service pression mobile</span>
             </div>
             <p class="tt-card-text">
-              Pistolet doseur à CO₂, sans électricité, pensé pour servir à la pression en mobilité
+              Pistolet doseur à CO₂, sans électricité, conçu pour servir à la pression en mobilité
               (festivals, events, bars temporaires).
             </p>
             <ul class="tt-feature-list">
               <li>Alimentation CO₂ – aucune prise de courant nécessaire.</li>
               <li>Réducteurs de débit disponibles (2, 2,5 et 3 mm).</li>
-              <li>Compatible lignes 3/8&quot; et connectique pro.</li>
+              <li>Compatible lignes 3/8&quot; et connectique professionnelle.</li>
             </ul>
             <a href="#contact" class="tt-link">Demander une fiche technique détaillée →</a>
           </article>
 
+          <!-- GripTap -->
           <article class="tt-card">
             <div class="tt-card-header">
               <h3>GripTap</h3>
-              <p class="tt-tag tt-tag-blue">Gestion des lignes</p>
+              <span class="tt-tag tt-tag-blue">Gestion des lignes</span>
             </div>
             <p class="tt-card-text">
-              Système de maintien et de gestion des lignes boissons, pensé pour le montage/démontage rapide
+              Système de maintien et d’organisation des lignes boisson, pensé pour le montage/démontage rapide
               et propre sur événement.
             </p>
             <ul class="tt-feature-list">
@@ -102,19 +109,20 @@
             <a href="#contact" class="tt-link">Recevoir le catalogue GripTap →</a>
           </article>
 
+          <!-- BibTap -->
           <article class="tt-card">
             <div class="tt-card-header">
               <h3>BibTap</h3>
-              <p class="tt-tag tt-tag-orange">Solution BIB pro</p>
+              <span class="tt-tag tt-tag-orange">Solution BIB pro</span>
             </div>
             <p class="tt-card-text">
               Interface technique entre BIB (Bag-in-Box) et réseau boisson : simplifie le raccordement,
-              sécurise le service, réduit les pertes.
+              sécurise le service et réduit les pertes.
             </p>
             <ul class="tt-feature-list">
               <li>Compatibilité Vitop et raccords standards.</li>
               <li>Montage/démontage rapide en contexte événementiel.</li>
-              <li>Conçu pour résister aux cadences des gros services.</li>
+              <li>Conçu pour les cadences des gros services.</li>
             </ul>
             <a href="#contact" class="tt-link">En savoir plus sur BibTap →</a>
           </article>
@@ -122,6 +130,7 @@
       </div>
     </section>
 
+    <!-- UNIVERS -->
     <section id="univers" class="tt-section tt-section-alt">
       <div class="tt-container tt-split">
         <div>
@@ -148,6 +157,7 @@
       </div>
     </section>
 
+    <!-- TECHNIQUE -->
     <section id="technique" class="tt-section">
       <div class="tt-container">
         <div class="tt-section-head">
@@ -185,6 +195,7 @@
       </div>
     </section>
 
+    <!-- PRO -->
     <section id="pro" class="tt-section tt-section-alt">
       <div class="tt-container">
         <div class="tt-section-head">
@@ -219,6 +230,7 @@
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="tt-section">
       <div class="tt-container tt-contact-grid">
         <div>
@@ -233,6 +245,7 @@
           </ul>
         </div>
         <div>
+          <!-- mailto simple pour le moment -->
           <form class="tt-form" action="mailto:contact@taptech.fr" method="post" enctype="text/plain">
             <label>
               Nom / Société
@@ -260,6 +273,7 @@
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="tt-footer">
     <div class="tt-container tt-footer-inner">
       <div class="tt-footer-left">
