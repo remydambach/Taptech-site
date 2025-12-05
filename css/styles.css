@@ -1,4 +1,4 @@
-/* TAPTECH – V2 fond clair avec logos */
+/* TAPTECH – V2 fond clair, ordre TipTap / BibTap / AirTap / GripTap */
 
 *,
 *::before,
@@ -44,6 +44,12 @@ html, body {
   margin: 0;
   max-width: 640px;
   color: #4b5563;
+}
+
+.tt-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .tt-grid-3 {
@@ -361,6 +367,11 @@ html, body {
   color: #1d4ed8;
 }
 
+.tt-tag-blue-soft {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
 .tt-tag-orange {
   background-color: #fff7ed;
   color: #c2410c;
@@ -476,6 +487,12 @@ html, body {
 }
 
 /* Responsive */
+
+@media (max-width: 1100px) {
+  .tt-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 960px) {
   .tt-hero-grid,
