@@ -1,14 +1,14 @@
-// TapTech – JS minimal
-document.addEventListener("DOMContentLoaded", () => {
-  const links = document.querySelectorAll('.tt-nav a[href^="#"], a.tt-btn[href^="#"], .tt-footer a[href^="#"]');
-  links.forEach(link => {
-    link.addEventListener('click', (e) => {
-      const targetId = link.getAttribute('href').slice(1);
-      const target = document.getElementById(targetId);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
+// TapTech – JS minimal (ancre douce)
+document.addEventListener('click', function (e) {
+  const link = e.target.closest('a[href^="#"]');
+  if (!link) return;
+  const id = link.getAttribute('href').slice(1);
+  if (!id) return;
+  const target = document.getElementById(id);
+  if (!target) return;
+  e.preventDefault();
+  window.scrollTo({
+    top: target.offsetTop - 80,
+    behavior: 'smooth'
   });
 });
