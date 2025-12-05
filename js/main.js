@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const toggle = document.querySelector('.tt-nav-toggle');
-  const nav = document.querySelector('.tt-nav');
-  if (!toggle || !nav) return;
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('tt-nav-open');
-  });
+fetch('content.json').then(r=>r.json()).then(d=>{
+ document.getElementById('hero_title').textContent=d.texts.hero_title;
+ document.getElementById('hero_sub').textContent=d.texts.hero_sub;
+ const ul=document.getElementById('products');
+ d.products_order.forEach(p=>{
+   const li=document.createElement('li'); li.textContent=p; ul.appendChild(li);
+ });
 });
