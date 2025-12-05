@@ -1,4 +1,4 @@
-/* TAPTECH – Design premium (Style 1)
+/* TAPTECH – Design clair (Style 1 Light)
    Palette :
    - Bleu clair TAP : #00A9FF
    - Bleu foncé TECH : #0A1A2F
@@ -16,8 +16,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
-  color: #e5e7eb;
-  background-color: #020617;
+  color: #0f172a;
+  background: radial-gradient(circle at top left, #f5f7fb 0, #ffffff 40%, #f9fafb 100%);
 }
 
 /* Layout utils */
@@ -34,7 +34,7 @@ html, body {
 }
 
 .tt-section-alt {
-  background: radial-gradient(circle at top right, rgba(15, 118, 178, 0.16), rgba(15, 23, 42, 0.96));
+  background: linear-gradient(180deg, #f9fbff 0, #f5f7fb 50%, #ffffff 100%);
 }
 
 .tt-section-head {
@@ -44,12 +44,13 @@ html, body {
 .tt-section-head h2 {
   font-size: 2.1rem;
   margin: 0 0 12px;
+  color: #020617;
 }
 
 .tt-section-head p {
   margin: 0;
   max-width: 640px;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .tt-grid-3 {
@@ -82,9 +83,10 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(2, 6, 23, 0.94);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.04);
 }
 
 .tt-header-inner {
@@ -117,14 +119,14 @@ html, body {
   font-size: 1.2rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #f9fafb;
+  color: #0f172a;
 }
 
 .tt-brand-tagline {
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .tt-nav {
@@ -135,9 +137,9 @@ html, body {
 }
 
 .tt-nav a {
-  color: #e5e7eb;
+  color: #111827;
   text-decoration: none;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 .tt-nav a:hover {
@@ -162,33 +164,33 @@ html, body {
 
 .tt-btn-primary {
   background: linear-gradient(135deg, #00A9FF, #38bdf8);
-  color: #020617;
-  box-shadow: 0 12px 28px rgba(56, 189, 248, 0.35);
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(56, 189, 248, 0.4);
 }
 
 .tt-btn-primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 16px 36px rgba(56, 189, 248, 0.45);
+  box-shadow: 0 14px 32px rgba(56, 189, 248, 0.45);
 }
 
 .tt-btn-outline {
-  border: 1px solid rgba(148, 163, 184, 0.8);
+  border: 1px solid #cbd5e1;
   background: transparent;
-  color: #e5e7eb;
+  color: #0f172a;
 }
 
 .tt-btn-outline:hover {
-  background: rgba(15, 23, 42, 0.9);
+  background: #f9fafb;
 }
 
 .tt-btn-ghost {
-  border: 1px solid rgba(75, 85, 99, 0.7);
-  background: rgba(15, 23, 42, 0.8);
-  color: #e5e7eb;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #0f172a;
 }
 
 .tt-btn-ghost:hover {
-  background: rgba(31, 41, 55, 0.95);
+  background: #f3f4f6;
 }
 
 .tt-btn-small {
@@ -204,7 +206,7 @@ html, body {
 
 .tt-hero {
   padding: 80px 0 70px;
-  background: radial-gradient(circle at top left, #0b1120, #020617 55%, #020617 100%);
+  background: radial-gradient(circle at top left, #e0f2fe 0, #f5f7fb 40%, #ffffff 100%);
 }
 
 .tt-hero-grid {
@@ -218,7 +220,7 @@ html, body {
   font-size: 0.78rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: #60a5fa;
+  color: #2563eb;
   margin: 0 0 8px;
 }
 
@@ -226,12 +228,12 @@ html, body {
   font-size: 2.8rem;
   line-height: 1.1;
   margin: 0 0 18px;
-  color: #f9fafb;
+  color: #020617;
 }
 
 .tt-hero-sub {
   margin: 0 0 22px;
-  color: #cbd5f5;
+  color: #4b5563;
   max-width: 560px;
 }
 
@@ -246,7 +248,7 @@ html, body {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #9ca3af;
+  color: #6b7280;
   font-size: 0.92rem;
 }
 
@@ -260,24 +262,24 @@ html, body {
 }
 
 .tt-hero-card {
-  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), rgba(15, 23, 42, 0.98));
+  background: #ffffff;
   border-radius: 20px;
   padding: 22px 22px 20px;
-  border: 1px solid rgba(148, 163, 184, 0.45);
-  box-shadow: 0 22px 48px rgba(15, 23, 42, 0.9);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
   max-width: 380px;
 }
 
 .tt-hero-card h2 {
   margin: 8px 0 10px;
   font-size: 1.5rem;
-  color: #f9fafb;
+  color: #0f172a;
 }
 
 .tt-hero-card p {
   margin: 0 0 12px;
   font-size: 0.9rem;
-  color: #d1d5db;
+  color: #4b5563;
 }
 
 .tt-mini-list {
@@ -285,7 +287,7 @@ html, body {
   padding: 0;
   margin: 0 0 12px;
   font-size: 0.85rem;
-  color: #e5e7eb;
+  color: #111827;
 }
 
 .tt-mini-list li + li {
@@ -296,12 +298,13 @@ html, body {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  border: 1px solid rgba(96, 165, 250, 0.7);
+  border: 1px solid #bfdbfe;
   padding: 4px 11px;
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: #bfdbfe;
+  color: #1d4ed8;
+  background: #eff6ff;
 }
 
 .tt-logos-row {
@@ -311,25 +314,26 @@ html, body {
 }
 
 .tt-logo-sub {
-  height: 34px;
+  height: 32px;
   width: auto;
-  background: #020617;
-  border-radius: 8px;
-  padding: 4px 6px;
+  border-radius: 6px;
+  padding: 3px 6px;
+  background: #ffffff; /* fond blanc = les logos se fondent dedans */
+  border: 1px solid #e5e7eb;
 }
 
 /* Cards */
 
 .tt-card {
-  background: rgba(15, 23, 42, 0.96);
+  background: #ffffff;
   border-radius: 18px;
   padding: 20px 20px 22px;
-  border: 1px solid rgba(148, 163, 184, 0.4);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
 }
 
 .tt-card-soft {
-  background: rgba(15, 23, 42, 0.9);
+  background: #f9fafb;
 }
 
 .tt-card-logo {
@@ -344,20 +348,20 @@ html, body {
 .tt-card h3 {
   margin: 0 0 4px;
   font-size: 1.2rem;
-  color: #f3f4f6;
+  color: #020617;
 }
 
 .tt-tagline {
   margin: 0 0 12px;
   font-size: 0.9rem;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .tt-feature-list {
   margin: 0;
   padding-left: 18px;
   font-size: 0.9rem;
-  color: #e5e7eb;
+  color: #111827;
 }
 
 .tt-feature-list li + li {
@@ -367,23 +371,25 @@ html, body {
 /* Highlight & callouts */
 
 .tt-highlight-box {
-  background: rgba(15, 23, 42, 0.96);
+  background: #ffffff;
   border-radius: 18px;
   padding: 18px 20px;
-  border: 1px solid rgba(96, 165, 250, 0.55);
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
 }
 
 .tt-doc-callout {
   margin-top: 30px;
   padding: 16px 18px;
   border-radius: 14px;
-  border: 1px dashed rgba(148, 163, 184, 0.75);
+  border: 1px dashed #cbd5e1;
+  background: #f9fafb;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   font-size: 0.95rem;
-  color: #e5e7eb;
+  color: #0f172a;
 }
 
 /* Links */
@@ -392,7 +398,7 @@ html, body {
   display: inline-flex;
   margin-top: 8px;
   font-size: 0.85rem;
-  color: #93c5fd;
+  color: #2563eb;
   text-decoration: none;
 }
 
@@ -403,21 +409,21 @@ html, body {
 /* Form */
 
 .tt-section-contact {
-  background: radial-gradient(circle at bottom right, rgba(56, 189, 248, 0.18), rgba(15, 23, 42, 1));
+  background: linear-gradient(180deg, #f9fbff 0, #eef2ff 40%, #ffffff 100%);
 }
 
 .tt-form {
-  background: rgba(15, 23, 42, 0.98);
+  background: #ffffff;
   border-radius: 18px;
   padding: 18px 20px 20px;
-  border: 1px solid rgba(148, 163, 184, 0.6);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.95);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
 }
 
 .tt-form label {
   display: block;
   font-size: 0.85rem;
-  color: #e5e7eb;
+  color: #111827;
   margin-bottom: 10px;
 }
 
@@ -427,9 +433,9 @@ html, body {
   margin-top: 4px;
   padding: 9px 10px;
   border-radius: 8px;
-  border: 1px solid rgba(148, 163, 184, 0.9);
-  background: rgba(15, 23, 42, 0.95);
-  color: #f9fafb;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #020617;
   font-family: inherit;
   font-size: 0.9rem;
 }
@@ -443,15 +449,15 @@ html, body {
 .tt-form-note {
   margin-top: 8px;
   font-size: 0.74rem;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 /* Footer */
 
 .tt-footer {
-  border-top: 1px solid rgba(148, 163, 184, 0.4);
+  border-top: 1px solid #e5e7eb;
   padding: 16px 0;
-  background: #020617;
+  background: #ffffff;
 }
 
 .tt-footer-inner {
@@ -459,11 +465,11 @@ html, body {
   align-items: center;
   justify-content: space-between;
   font-size: 0.8rem;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .tt-footer-inner a {
-  color: #e5e7eb;
+  color: #111827;
   text-decoration: none;
 }
 
@@ -475,7 +481,7 @@ html, body {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #e5e7eb;
+  color: #111827;
   margin-right: 6px;
 }
 
