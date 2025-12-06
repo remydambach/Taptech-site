@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "tiptap",
+      "title": "TipTap",
+      "tagline": "Bec à bière automatique",
+      "description": "Bec à bière automatique compact. Service régulier, précis et propre, même en gros débit, avec un minimum de manipulations.",
+      "priority": 1
+    },
+    {
+      "id": "bibtap",
+      "title": "BibTap",
+      "tagline": "Solution BIB pro",
+      "description": "Interface entre BIB (Bag-in-Box) et réseau boisson : raccordement simplifié, service sécurisé, pertes réduites.",
+      "priority": 2
+    },
+    {
+      "id": "airtap",
+      "title": "AirTap",
+      "tagline": "Service pression mobile",
+      "description": "Pistolet doseur à CO₂, sans électricité, pensé pour servir à la pression en mobilité (festivals, events, bars temporaires).",
+      "priority": 3
+    },
+    {
+      "id": "griptap",
+      "title": "GripTap",
+      "tagline": "Gestion des lignes",
+      "description": "Système de maintien et de gestion des lignes boissons, optimisé pour des montages/démontages rapides et propres.",
+      "priority": 4
+    }
+  ]
+}
